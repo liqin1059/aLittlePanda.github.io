@@ -25,7 +25,7 @@ defaults:
       layout: "post"
 
 #### Pagination
-paginate: 10
+paginate: 5
 
 #### Site
 title : liqin
@@ -55,7 +55,7 @@ widgets:
 - tagcloud
 - links
 - douban
-- github-card
+##- github-card
 - rss
 ## provide seven widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo,douban
 
@@ -109,8 +109,8 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+  前端网: http://www.qdfuns.com/
+  HTML5资源教程: http://www.html5tricks.com/page/10
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.       website: http://duoshuo.com
