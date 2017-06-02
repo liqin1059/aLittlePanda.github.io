@@ -54,7 +54,7 @@ body {
 	background: #ddd;
 	font-family: "Helvetica Neue","Helvetica","Microsoft YaHei","WenQuanYi Micro Hei",Arial,sans-serif;
 	font-size: 100%;
-	color: #817c7c;
+	color: #401701;
 	line-height: 1.5
 }
 
@@ -340,7 +340,7 @@ body >header {
 	width: 100%;
 	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-	background: url("../../") center #2ca6cb;
+	background: url("../../") center #e55433;
 	color: #fff;
 	padding: 1em 0 .8em;
 }
@@ -682,7 +682,7 @@ header nav ul li a:hover {
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
 	background: #ddd;
-	color: #817c7c;
+	color: #bf4830;
 	text-decoration: none;
 }
 
@@ -903,7 +903,7 @@ header nav ul li a:hover {
 }
 
 .post a,.page a,.link a,.photo a {
-	color: #2ca6cb;
+	color: #401701;
 }
 
 .post a:hover,.page a:hover,.link a:hover,.photo a:hover {
@@ -924,7 +924,7 @@ article header.article-info >h1 {
 	word-break: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	border-left: 5px solid #2ca6cb
+	border-left: 5px solid #e55433
 }
 
 @media only screen and (min-width:1024px) {
@@ -973,7 +973,7 @@ article header.article-info >p.article-time:before {
 
 article .article-content {
 	padding: 1.5em 4%;
-	color: #413f3f;
+	color: #7f2e1d;
 	font-size: 100%;
 }
 
@@ -1018,7 +1018,7 @@ article .article-content h4,article .article-content h5,article .article-content
 }
 
 article .article-content h1,article .article-content h2,article .article-content h3,article .article-content h4,article .article-content h5,article .article-content h6 {
-	color: #333;
+	color: #7f2e1d;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -1521,7 +1521,7 @@ footer.article-footer {
 
 .article-tags a:hover {
 	color: #fff;
-	background: #2ca6cb
+	background: #e55433
 }
 
 .article-categories {
@@ -1813,7 +1813,7 @@ section.comment {
 
 .asidetitle {
 	font-size: 1.1em;
-	color: #2ca6cb;
+	color: #e55433;
 	padding: 0 0 .3125em 0;
 	border-bottom: .1875em solid #ccc;
 }
@@ -1896,12 +1896,12 @@ section.comment {
 }
 
 .tagslist ul li a:hover {
-	color: #2ca6cb;
+	color: #e55433;
 	background: #e6e6e6
 }
 
 .rsspart {
-	background: #2ca6cb;
+	background: #e55433;
 	width: 100%;
 }
 
@@ -2321,11 +2321,11 @@ footer {
 }
 
 .copyright a {
-	color: #2ca6cb;
+	color: #e55433;
 }
 
 .copyright a:hover {
-	color: #2ca6cb;
+	color: #e55433;
 	text-decoration: underline
 }
 
