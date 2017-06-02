@@ -629,11 +629,11 @@ header nav ul li a:hover {
 }
 
 #main section.post a:hover {
-	border-left: .5em solid #2ca6cb
+	border-left: .5em solid #e55433
 }
 
 #main section.post a h1 {
-	color: #2ca6cb;
+	color: #e55433;
 	line-height: 2
 }
 
@@ -687,7 +687,7 @@ header nav ul li a:hover {
 }
 
 #main article.post-expand .article-more-link a:hover {
-	background: #2ca6cb;
+	background: #e55433;
 	color: #fff;
 	text-decoration: none
 }
@@ -712,7 +712,7 @@ header nav ul li a:hover {
 }
 
 .unexpand .prev:hover {
-	border-left: .5em solid #2ca6cb
+	border-left: .5em solid #e55433
 }
 
 #page-nav {
