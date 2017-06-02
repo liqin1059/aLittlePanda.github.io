@@ -523,8 +523,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	background: #1b7f9e;
-	color: #e9cd4c
+	background: #bf462b;
+	color: #40170e
 }
 
 .shownav {
@@ -1757,7 +1757,7 @@ section.comment {
 	border: 1px solid #fff;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background: #2ca6cb;
+	background: #e55433;
 	padding: .2em .55em;
 }
 
@@ -1773,11 +1773,11 @@ section.comment {
 }
 
 .closeaside a {
-	color: #2ca6cb;
+	color: #e55433;
 }
 
 .closeaside a:hover {
-	color: #2ca6cb
+	color: #e55433
 }
 
 .closeaside a::before {
@@ -2250,7 +2250,7 @@ footer {
 }
 
 .social-font a:hover:before {
-	color: #2ca6cb
+	color: #e55433
 }
 
 .icon-weibo:before,.icon-github:before,.icon-twitter:before,.icon-facebook:before,.icon-stack-overflow:before,.icon-email:before,.icon-google_plus:before,.icon-linkedin:before {
