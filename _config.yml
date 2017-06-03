@@ -28,7 +28,7 @@ defaults:
 paginate: 5
 
 #### Site
-title : liqin
+title : 李琴
 tagline: passion determines how far you can go.
 assets: /assets
 baseurl:
@@ -38,9 +38,9 @@ language: zh-CN    ## blog site languages: en, zh-CN, zh-TW
 
 #### Menu
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  首页: /
+  笔记: /archives
+  关于: /about
 ## you can create `tags` and `categories` folders (I had created them already).
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -134,7 +134,7 @@ google_analytics:
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
   enable: false
-  sitecode:  ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  sitecode:  d111ae95a941f5473fa69d51f8252e89 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
