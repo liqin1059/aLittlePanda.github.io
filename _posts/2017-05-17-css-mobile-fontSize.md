@@ -3,34 +3,36 @@ layout: post
 title: 从网易与淘宝的font-size思考前端设计稿与工作流
 date: 2017-05-17 14:31:30
 categories: 移动端
-tags: [自适应，字体]
+tags: [自适应,字体]
 ---
 
 ## 问题的引出
 最近阅读白树的博文《移动web资源整理》时，他在博文中有一段指出，如果html5要适应各种分辨率的移动设备，应该使用rem这样的尺寸单位，同时给出了一段针对各个分辨率范围在html上设置font-size的代码：
-	html{font-size:10px}
-	@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
-	@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
-	@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
-	@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
-	@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
-	@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
-	@media screen and (min-width:800px){html{font-size:25px}}
-
+```
+html{font-size:10px}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:25px}}
+```
 在实际项目中，把与元素尺寸有关的css，如width,height,line-height,margin,padding等都以rem作为单位，这样页面在不同设备下就能保持一致的网页布局。举例来说，网页有一个.item类，设置了width为3.4rem，该类在不同分辨率下对应的实际宽度如下：
-	321px <= device-width <= 375px，font-size:11px        --->  .item的width：34px
-	376px <= device-width <= 414px，font-size:12px        --->  .item的width：37.4px
-	415px <= device-width <= 639px，font-size:15px        --->  .item的width：40.8px
-	640px <= device-width <= 719px，font-size:20px        --->  .item的width：51px
-	720px <= device-width <= 749px，font-size:22.5px      --->  .item的width：76.5px
-	750px <= device-width <= 799px，font-size:23.5px      --->  .item的width：79.8999999px
-	800px <= device-width         ，font-size:25px        --->  .item的width：85px
-
+```
+321px <= device-width <= 375px，font-size:11px        --->  .item的width：34px
+376px <= device-width <= 414px，font-size:12px        --->  .item的width：37.4px
+415px <= device-width <= 639px，font-size:15px        --->  .item的width：40.8px
+640px <= device-width <= 719px，font-size:20px        --->  .item的width：51px
+720px <= device-width <= 749px，font-size:22.5px      --->  .item的width：76.5px
+750px <= device-width <= 799px，font-size:23.5px      --->  .item的width：79.8999999px
+800px <= device-width         ，font-size:25px        --->  .item的width：85px
+```
 以上代码乍看没啥问题，响应式设计不就应该是这么干的吗？但是从工作量和复杂度方面来考虑，它有以下几个不足：
 
-	* （1）.item类在所有设备下的width都是3.4rem，但在不同分辨率下的实际像素是不一样的，所以在有些分辨率下，width的界面效果不一定合适，有可能太宽，有可能太窄，这时候就要对width进行调整，那么就需要针对.item写媒介查询的代码，为该分辨率重新设计一个rem值。然而，这里有7种媒介查询的情况，css又有很多跟尺寸相关的属性，哪个属性在哪个分辨率范围不合适都是不定的，最后会导致要写很多的媒介查询才能适配所有设备，而且在写的时候rem都得根据某个分辨率html的font-size去算，这个计算可不见得每次都那么容易，比如40px / 23.5px，这个rem值口算不出来吧！由此可见这其中的麻烦有多少。
-	* （2）以上代码中给出的7个范围下的font-size不一定是合适的，这7个范围也不一定合适，实际有可能不需要这么多，所以找出这些个范围，以及每个范围最合适的font-size也很麻烦
-	* （3）设计稿都是以分辨率来标明尺寸的，前端在根据设计稿里各个元素的像素尺寸转换为rem时，该以哪个font-size为准呢？这需要去写才能知道。
+	（1）.item类在所有设备下的width都是3.4rem，但在不同分辨率下的实际像素是不一样的，所以在有些分辨率下，width的界面效果不一定合适，有可能太宽，有可能太窄，这时候就要对width进行调整，那么就需要针对.item写媒介查询的代码，为该分辨率重新设计一个rem值。然而，这里有7种媒介查询的情况，css又有很多跟尺寸相关的属性，哪个属性在哪个分辨率范围不合适都是不定的，最后会导致要写很多的媒介查询才能适配所有设备，而且在写的时候rem都得根据某个分辨率html的font-size去算，这个计算可不见得每次都那么容易，比如40px / 23.5px，这个rem值口算不出来吧！由此可见这其中的麻烦有多少。
+	（2）以上代码中给出的7个范围下的font-size不一定是合适的，这7个范围也不一定合适，实际有可能不需要这么多，所以找出这些个范围，以及每个范围最合适的font-size也很麻烦
+	（3）设计稿都是以分辨率来标明尺寸的，前端在根据设计稿里各个元素的像素尺寸转换为rem时，该以哪个font-size为准呢？这需要去写才能知道。
 
 正是因为以上提到的一些不足，我觉得这种适配方式不是特别好，写起来太麻烦。为了完成工作，我们需要找寻更简单更有效率的方法。那么html5该如何去做众多移动设备的适配呢？我目前已知的有3种解决方法，将会在下文的第2,3,4部分阐述，如果你阅读之后，有什么想法，尽可在评论中与我交流。
 ## 简单问题简单解决
