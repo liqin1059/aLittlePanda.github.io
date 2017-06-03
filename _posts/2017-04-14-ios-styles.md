@@ -2,7 +2,7 @@
 layout: post
 title: ios自带样式
 date: 2017-04-14 12:31:30
-categories: css
+categories: css3
 tags: [自带样式, ios]
 ---
 ### IOS系统的button,input,select,radio,checkbox等标签都有自带的样式
