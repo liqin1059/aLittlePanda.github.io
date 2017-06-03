@@ -1026,7 +1026,7 @@ article .article-content h4,article .article-content h5,article .article-content
 }
 
 article .article-content h1,article .article-content h2,article .article-content h3,article .article-content h4,article .article-content h5,article .article-content h6 {
-	color: #7f2e1d;
+	color: #40170e;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
 }
@@ -1057,7 +1057,8 @@ article .article-content blockquote {
 	padding-left: 1%;
 	line-height: 1.5;
 	font-size: 100%;
-	color: #808080
+	color: #808080;
+	background: #ffeeda;
 }
 
 article .article-content blockquote footer {
