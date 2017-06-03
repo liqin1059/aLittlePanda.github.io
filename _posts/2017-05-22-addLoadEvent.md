@@ -7,6 +7,7 @@ tags: [addLoadEvent]
 ---
 为了解决window.onload事件,javascript通过封装带参addLoadEvent函数
 > 不带参数版本
+
 ```
 function addLoadEvent(func){
 	var oldonload = window.onload; //将现有的事件处理函数的值存入变量中
@@ -21,7 +22,9 @@ function addLoadEvent(func){
 }
 addLoadEvent(func);
 ```
+
 > 带参数版本
+
 ```
  function addLoadEvent(func){
 	var ages = [ ].slice.call(arguments,1);
