@@ -6,25 +6,29 @@ categories: javascript
 tags: [this,原型,继承,全局变量,对象属性]
 ---
 >此题涉及的知识点众多，包括变量定义提升、this指针指向、运算符优先级、原型、继承、全局变量污染、对象属性及原型属性优先级等等
-```
-	function Foo() {
-	    getName = function () { alert (1); };
-	    return this;
-	}
-	Foo.getName = function () { alert (2);};
-	Foo.prototype.getName = function () { alert (3);};
-	var getName = function () { alert (4);};
-	function getName() { alert (5);}
 
-	//请写出以下输出结果：
-	Foo.getName();
-	getName();
-	Foo().getName();
-	getName();
-	new Foo.getName();
-	new Foo().getName();
-	new new Foo().getName();
+
 ```
+function Foo() {
+    getName = function () { alert (1); };
+    return this;
+}
+Foo.getName = function () { alert (2);};
+Foo.prototype.getName = function () { alert (3);};
+var getName = function () { alert (4);};
+function getName() { alert (5);}
+
+//请写出以下输出结果：
+Foo.getName();
+getName();
+Foo().getName();
+getName();
+new Foo.getName();
+new Foo().getName();
+new new Foo().getName();
+```
+
+
 ## 第一问Foo.getName()
 先看此题的上半部分做了什么，首先定义了一个叫Foo的函数，之后为Foo创建了一个叫getName的**静态属性**存储了一个匿名函数，之后为Foo的**原型对象**新创建了一个叫getName的匿名函数。之后又通过**函数变量表达式**创建了一个getName的函数，最后再声明一个叫getName函数。
 
@@ -44,11 +48,13 @@ x = 0;
 ```
 
 代码执行时js引擎会将声明语句提升至代码的最上方，变为：
+
 ```
 var x;
 console.log('x' in window);//true
 x = 0;
 ```
+
 - **函数表达式**
 
  `var getName` 与 `function getName` 都是声明语句，区别在于 `var getName` 是函数表达式，而 `function getName` 是函数声明。关于JS中的各种函数创建方式可以看 大部分人都会做错的经典JS闭包面试题 这篇文章有详细说明。
