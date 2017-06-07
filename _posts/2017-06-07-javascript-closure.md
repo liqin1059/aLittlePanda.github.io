@@ -2,7 +2,7 @@
 layout: post
 title: javascript闭包的作用
 date: 2017-06-07 13:31:30
-categories: javascript闭包的作用
+categories: javascript
 tags: [闭包]
 ---
 在javascript
