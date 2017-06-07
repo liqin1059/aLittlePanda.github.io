@@ -28,7 +28,7 @@ defaults:
 paginate: 5
 
 #### Site
-title : liqin
+title : bluecats
 tagline: passion determines how far you can go.
 assets: /assets
 baseurl:
