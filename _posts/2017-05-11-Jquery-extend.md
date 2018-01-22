@@ -2,8 +2,8 @@
 layout: post
 title: Jquery类级别（$.extend）
 date: 2017-04-18 14:31:30
-categories: Jquery
-tags: [Jquery,extend,插件]
+categories: 控件
+tags: []
 ---
 ## 类级别（$.extend）
 

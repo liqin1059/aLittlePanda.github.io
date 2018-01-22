@@ -3,7 +3,7 @@ layout: post
 title: Table宽度问题
 date: 2017-05-25 12:31:30
 categories: html5
-tags: [table]
+tags: []
 ---
 Table宽度问题
 > table 设置

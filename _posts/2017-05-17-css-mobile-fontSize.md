@@ -3,7 +3,7 @@ layout: post
 title: 从网易与淘宝的font-size思考前端设计稿与工作流
 date: 2017-05-17 14:31:30
 categories: 移动端
-tags: [自适应,字体]
+tags: [移动端]
 ---
 
 ## 问题的引出

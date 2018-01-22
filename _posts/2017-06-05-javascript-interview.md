@@ -3,7 +3,7 @@ layout: post
 title: javascript题目
 date: 2017-06-05 13:31:30
 categories: javascript
-tags: [this,原型,继承,全局变量,对象属性]
+tags: [this]
 ---
 >此题涉及的知识点众多，包括变量定义提升、this指针指向、运算符优先级、原型、继承、全局变量污染、对象属性及原型属性优先级等等
 

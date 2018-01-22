@@ -3,7 +3,7 @@ layout: post
 title: flex垂直居中
 date: 2017-04-17 12:31:30
 categories: css3
-tags: [flex, 垂直居中]
+tags: [盒子]
 ---
 
 ## flex垂直居中

@@ -3,7 +3,7 @@ layout: post
 title: 块级a链接
 date: 2017-05-16 14:31:30
 categories: css3
-tags: [a]
+tags: []
 ---
 a链接变成块元素点击后闪一下变色的问题
 

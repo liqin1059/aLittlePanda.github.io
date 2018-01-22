@@ -3,7 +3,7 @@ layout: post
 title: ios自带样式
 date: 2017-04-14 12:31:30
 categories: css3
-tags: [自带样式, ios]
+tags: [移动端]
 ---
 IOS系统的button,input,select,radio,checkbox等标签都有自带的样式
 	-webkit-appearance:none;appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);
