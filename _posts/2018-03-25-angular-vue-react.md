@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 深拷贝
+title: angular、vue、react比较
 date: 2018-03-24 22:31:30
 categories: javascript
-tags: [angualr][vue][react]
+tags: [框架]
 ---
 框架间的竞争并不是零和游戏。虽然解决的核心痛点有重合，但适用场景还是有区别。比如 React/Vue 这样以 view layer 为核心，可以灵活选择整体架构和工具链的框架，和 Angular 2 这样大而全一站到底的框架，各有各适合的场景。Vue 因为不需要构建也能直接用，也能用在一些比 React 更轻量的场景中。撇开场景，也有开发风格的偏好问题。有些人用 React 更有效率，有些人用 Vue 更有效率，而 C#/Java 生态圈一大群人会觉得 TypeScript 和 Angular 2 让他们更有效率。最理想的情况是大家都找到最符合自己场景需求和开发偏好的框架，所以我觉得多框架的并存是合理且有意义的，不太可能出现 Angular 2 火了就没人再用 React/Vue 的情况。
 
