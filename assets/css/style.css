@@ -2627,7 +2627,9 @@ pre .keyword,pre .javascript .function {
 	right: 1em;
 	cursor: pointer
 }
-
+#totop img {
+	width: 60px;
+}
 @media only screen and (max-width:1024px) {
 	#totop {
 		display: none!important
