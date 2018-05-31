@@ -687,7 +687,7 @@ header nav ul li a:hover {
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
 	background: #ddd;
-	color: #bf4830;
+	color: #409eff;
 	text-decoration: none
 }
 
@@ -857,7 +857,7 @@ header nav ul li a:hover {
 }
 
 .current {
-	color: #ea6753!important
+	color: #0092fe!important
 }
 
 @media only screen and (min-width:768px) {
