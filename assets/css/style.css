@@ -527,8 +527,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	background: #bf462b;
-	color: #40170e
+	background: #3366ff;
+	color: #003399
 }
 
 .shownav {
@@ -981,7 +981,7 @@ article header.article-info>p.article-time:before {
 
 article .article-content {
 	padding: 1.5em 4%;
-	color: #40170e;
+	color: #003399;
 	font-size: 100%
 }
 
@@ -1026,7 +1026,7 @@ article .article-content h4,article .article-content h5,article .article-content
 }
 
 article .article-content h1,article .article-content h2,article .article-content h3,article .article-content h4,article .article-content h5,article .article-content h6 {
-	color: #40170e;
+	color: #003399;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale
 }
