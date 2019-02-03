@@ -527,8 +527,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	background: #3366ff;
-	color: #003399
+	background: #c3c9dd;
+	color: #003399;
 }
 
 .shownav {
