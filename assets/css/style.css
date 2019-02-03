@@ -344,7 +344,7 @@ body>header {
 	width: 100%;
 	-webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
 	box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-	background: url("../../") center #409eff;
+	background: url("../../") center #1d365d;
 	color: #fff;
 	padding: 1em 0 .8em
 }
@@ -634,11 +634,11 @@ header nav ul li a:hover {
 }
 
 #main section.post a:hover {
-	border-left: .5em solid #409eff
+	border-left: .5em solid #1d365d
 }
 
 #main section.post a h1 {
-	color: #409eff;
+	color: #1d365d;
 	line-height: 2
 }
 
@@ -687,12 +687,12 @@ header nav ul li a:hover {
 	-webkit-border-radius: 15px;
 	border-radius: 15px;
 	background: #ddd;
-	color: #409eff;
+	color: #1d365d;
 	text-decoration: none
 }
 
 #main article.post-expand .article-more-link a:hover {
-	background: #409eff;
+	background: #1d365d;
 	color: #fff;
 	text-decoration: none
 }
@@ -717,7 +717,7 @@ header nav ul li a:hover {
 }
 
 .unexpand .prev:hover {
-	border-left: .5em solid #409eff
+	border-left: .5em solid #1d365d
 }
 
 #page-nav {
@@ -732,12 +732,12 @@ header nav ul li a:hover {
 }
 
 #page-nav a {
-	color: #409eff
+	color: #1d365d
 }
 
 #page-nav a:hover {
 	background: #ccc;
-	color: #409eff
+	color: #1d365d
 }
 
 #page-nav .prev {
@@ -786,7 +786,7 @@ header nav ul li a:hover {
 }
 
 #page-nav .space {
-	color: #409eff
+	color: #1d365d
 }
 
 @media only screen and (min-width:1024px) {
@@ -834,12 +834,12 @@ header nav ul li a:hover {
 
 .archive-title h2 {
 	width: 90%;
-	color: #409eff;
+	color: #1d365d;
 	font-size: 120%
 }
 
 .archive-title a {
-	color: #409eff;
+	color: #1d365d;
 	-webkit-transition: color .5s;
 	-moz-transition: color .5s;
 	-o-transition: color .5s;
@@ -848,7 +848,7 @@ header nav ul li a:hover {
 }
 
 .archive-title a:hover {
-	color: #409eff;
+	color: #1d365d;
 	-webkit-transition: color .5s;
 	-moz-transition: color .5s;
 	-o-transition: color .5s;
@@ -932,7 +932,7 @@ article header.article-info>h1 {
 	word-break: normal;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	border-left: 5px solid #409eff
+	border-left: 5px solid #1d365d
 }
 
 @media only screen and (min-width:1024px) {
@@ -1052,7 +1052,7 @@ article .article-content acronym,article .article-content abbr {
 }
 
 article .article-content blockquote {
-	border-left: .2em solid #409eff;
+	border-left: .2em solid #1d365d;
 	margin: .65em 0 .65em 1%;
 	padding-left: 1%;
 	line-height: 1.5;
@@ -1530,7 +1530,7 @@ footer.article-footer {
 
 .article-tags a:hover {
 	color: #fff;
-	background: #409eff
+	background: #1d365d
 }
 
 .article-categories {
@@ -1553,7 +1553,7 @@ footer.article-footer {
 
 .article-category-link:hover {
 	color: #fff!important;
-	background: #409eff
+	background: #1d365d
 }
 
 .article-nav {
@@ -1577,7 +1577,7 @@ footer.article-footer {
 }
 
 .article-nav .prev a:hover,.article-nav .next a:hover {
-	background: #409eff;
+	background: #1d365d;
 	color: #fff
 }
 
@@ -1766,7 +1766,7 @@ section.comment {
 	border: 1px solid #fff;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	background: #409eff;
+	background: #1d365d;
 	padding: .2em .55em
 }
 
@@ -1782,11 +1782,11 @@ section.comment {
 }
 
 .closeaside a {
-	color: #409eff
+	color: #1d365d
 }
 
 .closeaside a:hover {
-	color: #409eff
+	color: #1d365d
 }
 
 .closeaside a::before {
@@ -1822,7 +1822,7 @@ section.comment {
 
 .asidetitle {
 	font-size: 1.1em;
-	color: #409eff;
+	color: #1d365d;
 	padding: 0 0 .3125em 0;
 	border-bottom: .1875em solid #ccc
 }
@@ -1866,7 +1866,7 @@ section.comment {
 }
 
 .categorieslist li a:hover {
-	color: #409eff
+	color: #1d365d
 }
 
 .tagslist {
@@ -1905,12 +1905,12 @@ section.comment {
 }
 
 .tagslist ul li a:hover {
-	color: #409eff;
+	color: #1d365d;
 	background: #e6e6e6
 }
 
 .rsspart {
-	background: #409eff;
+	background: #1d365d;
 	width: 100%
 }
 
@@ -1938,7 +1938,7 @@ section.comment {
 }
 
 .rsspart a:hover {
-	color: #409eff;
+	color: #1d365d;
 	background: #fafafa
 }
 
@@ -1972,7 +1972,7 @@ section.comment {
 }
 
 .archiveslist li a:hover {
-	color: #409eff;
+	color: #1d365d;
 	-webkit-transition: color .25s;
 	-moz-transition: color .25s;
 	-o-transition: color .25s;
@@ -2030,7 +2030,7 @@ section.comment {
 }
 
 .tagcloudlist .tagcloudlist a:hover {
-	color: #409eff;
+	color: #1d365d;
 	-webkit-transition: color .25s;
 	-moz-transition: color .25s;
 	-o-transition: color .25s;
@@ -2070,7 +2070,7 @@ section.comment {
 }
 
 .linkslist ul a:hover {
-	color: #409eff;
+	color: #1d365d;
 	-webkit-transition: color .25s;
 	-moz-transition: color .25s;
 	-o-transition: color .25s;
@@ -2259,7 +2259,7 @@ footer {
 }
 
 .social-font a:hover:before {
-	color: #409eff
+	color: #1d365d
 }
 
 .icon-weibo:before,.icon-github:before,.icon-twitter:before,.icon-facebook:before,.icon-stack-overflow:before,.icon-email:before,.icon-google_plus:before,.icon-linkedin:before {
@@ -2330,11 +2330,11 @@ footer {
 }
 
 .copyright a {
-	color: #409eff
+	color: #1d365d
 }
 
 .copyright a:hover {
-	color: #409eff;
+	color: #1d365d;
 	text-decoration: underline
 }
 
@@ -2365,7 +2365,7 @@ footer {
 	background: #333;
 	margin: .5em 0;
 	padding: .5em 2%;
-	color: #409eff;
+	color: #1d365d;
 	line-height: 1.5;
 	font-size: .8em;
 	-webkit-border-radius: .35em;
@@ -2510,12 +2510,12 @@ footer {
 }
 
 .article-content .gist .gist-file .gist-meta a {
-	color: #409eff;
+	color: #1d365d;
 	font-weight: normal
 }
 
 .article-content .gist .gist-file .gist-meta a:hover {
-	color: #409eff
+	color: #1d365d
 }
 
 pre .comment,pre .title {
@@ -2523,11 +2523,11 @@ pre .comment,pre .title {
 }
 
 pre .variable,pre .attribute,pre .tag,pre .regexp,pre .ruby .constant,pre .xml .tag .title,pre .xml .pi,pre .xml .doctype,pre .html .doctype,pre .css .id,pre .css .class,pre .css .pseudo {
-	color: #409eff
+	color: #1d365d
 }
 
 pre .number,pre .preprocessor,pre .built_in,pre .literal,pre .params,pre .constant {
-	color: #409eff
+	color: #1d365d
 }
 
 pre .class,pre .ruby .class .title,pre .css .rules .attribute {
