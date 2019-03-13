@@ -2362,10 +2362,10 @@ footer {
 }
 
 .article-content pre,.article-content .highlight,.article-content .highlight pre {
-	background: #333;
+	background: #e8e8e8;
 	margin: .5em 0;
 	padding: .5em 2%;
-	color: #1d365d;
+	color: #596181;
 	line-height: 1.5;
 	font-size: .8em;
 	-webkit-border-radius: .35em;
